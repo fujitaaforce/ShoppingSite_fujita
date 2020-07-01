@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+.background{
+	color: #000000;
+	background-color: #ff8000;
+		width:1000px;/*検索ボタンの横幅*/
+}
+.top{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:130px;/*検索ボタンの横幅*/
+	height:70px;/*検索ボタンの縦幅*/
+}
+.search{
+	position:relative;
+	top:8px;
+	left:200px;
+}
+.searchitem{
+	position:relative;
+	top:0px;
+	left:200px;
+}
+.title{
+	position:absolute;/*フォームの絶対位置*/
+	height:40px;/*検索ボックスの高さ*/
+	layer:5;
+}
+.category{
+	position:absolute;/*フォームの絶対位置*/
+	height:40px;/*検索ボックスの高さ*/
+	left:75px;
+}
+.textbox{
+	position:absolute;/*フォームの絶対位置*/
+	height:40px;/*検索ボックスの高さ*/
+	left:190px;
+
+}
+.submit{
+	position:absolute;/*フォームの絶対位置*/
+	width:50px;/*検索ボタンの横幅*/
+	height:40px;/*検索ボタンの縦幅*/
+	left:505px;
+}
+.log{
+	position:absolute;
+	top:0px;
+	left:1070px;
+}
+.cart{
+	position:relative;
+	width:70px;/*検索ボタンの横幅*/
+	height:70px;/*検索ボタンの縦幅*/
+}
+.logbutton{
+	position:relative;
+	width:90px;/*検索ボタンの横幅*/
+	height:70px;/*検索ボタンの縦幅*/
+}
+.user{
+	position:relative;
+	width:100px;
+	height:70px;
+}
+.itemlist{
+	position:relative;
+	width:1200px;
+	height:50px;
+	top:130px;
+	left:100px;
+}
+
+.number{
+	width:30px;/*検索ボタンの横幅*/
+	height:20px;/*検索ボタンの縦幅*/
+}
+.sortform{
+		position:relative;
+		height:40px;
+		top:110px;
+		left:100px;
+}
+.sort{
+		height:40px;
+}
+.listtext{
+	position:relative;
+	top:-100px;
+	left:140px;
+	font-size:16px;
+}
+.listitemname{
+	position:relative;
+	top:-100px;
+	left:35px;
+	font-size:16px;
+}
+.itempage{
+		position:relative;
+		top:130px;
+		left:160px;
+		height:430px;
+		width:1000px;
+}
+.itemname{
+	position:absolute;
+	top:0px;
+	left:340px;
+	font-size:34px;
+}
+.explanation{
+	position:absolute;
+	top:200px;
+	left:340px;
+	font-size:16px;
+	width:500px;
+}
+.cartbutton{
+	position:absolute;
+	top:300px;
+	left:340px;
+	font-size:30px;
+	width:500px;
+}
+.mypagetext{
+			position:relative;
+		top:130px;
+		height:430px;
+		width:1000px;
+}
+.addresssubmit{
+	position:relative;
+	width:80px;/*検索ボタンの横幅*/
+	height:40px;/*検索ボタンの縦幅*/
+}
+.loginsubmit{
+	position:relative;
+	width:80px;/*検索ボタンの横幅*/
+	height:40px;/*検索ボタンの縦幅*/
+}
+.msg{
+		position:relative;
+		top:30px;
+	left:300px;
+}

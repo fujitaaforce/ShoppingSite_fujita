@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>shopping</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>/views/top.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>SignupServlet</servlet-name>
+    <servlet-class>jp.co.aforce.servlets.SignupServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<servlet-class>jp.co.aforce.servlets.LoginServlet</servlet-class>
+  </servlet><servlet>
+  	<servlet-name>ProductServlet</servlet-name>
+  	<servlet-class>jp.co.aforce.servlets.ProductServlet</servlet-class>
+</servlet><servlet>
+  	<servlet-name>ItemListServlet</servlet-name>
+  	<servlet-class>jp.co.aforce.servlets.ItemListServlet</servlet-class>
+</servlet><servlet>
+  	<servlet-name>ImageServlet</servlet-name>
+  	<servlet-class>jp.co.aforce.servlets.ImageServlet</servlet-class>
+  </servlet><servlet>
+  	<servlet-name>InsertCartServlet</servlet-name>
+  	<servlet-class>jp.co.aforce.servlets.InsertCartServlet</servlet-class>
+  </servlet><servlet>
+  	<servlet-name>CartServlet</servlet-name>
+  	<servlet-class>jp.co.aforce.servlets.CartServlet</servlet-class>
+</servlet><servlet>
+  	<servlet-name>UpdateCartServlet</servlet-name>
+  	<servlet-class>jp.co.aforce.servlets.UpdateCartServlet</servlet-class>
+</servlet><servlet>
+  	<servlet-name>ItemPageServlet</servlet-name>
+  	<servlet-class>jp.co.aforce.servlets.ItemPageServlet</servlet-class>
+  </servlet><servlet>
+  	<servlet-name>OrderServlet</servlet-name>
+  	<servlet-class>jp.co.aforce.servlets.OrderServlet</servlet-class>
+  </servlet><servlet-mapping>
+    <servlet-name>SignupServlet</servlet-name>
+    <url-pattern>/views/Signup</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/views/Login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ProductServlet</servlet-name>
+  	<url-pattern>/views/Product</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ItemListServlet</servlet-name>
+  	<url-pattern>/views/ItemList</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ImageServlet</servlet-name>
+  	<url-pattern>/ImageServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>InsertCartServlet</servlet-name>
+  	<url-pattern>/views/InsertCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CartServlet</servlet-name>
+  	<url-pattern>/views/Cart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateCartServlet</servlet-name>
+  	<url-pattern>/views/UpdateCart</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ItemPageServlet</servlet-name>
+  	<url-pattern>/views/ItemPage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>OrderServlet</servlet-name>
+  	<url-pattern>/views/Order</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>AddressServlet</servlet-name>
+  	<servlet-class>jp.co.aforce.servlets.AddressServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddressServlet</servlet-name>
+  	<url-pattern>/views/Address</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>OrderSaleServlet</servlet-name>
+  	<servlet-class>jp.co.aforce.servlets.OrderSaleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>OrderSaleServlet</servlet-name>
+  	<url-pattern>/views/OrderSale</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>DeleteProductServlet</servlet-name>
+  	<servlet-class>jp.co.aforce.servlets.DeleteProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DeleteProductServlet</servlet-name>
+  	<url-pattern>/views/DeleteProduct</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
